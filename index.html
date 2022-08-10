@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="index.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <img alt="" id="snap-logo" src="./images/logo.svg">
+  <div>
+    <img alt="" id="menu" src="./images/icon-menu.svg" >
+  </div>
+ 
+  <div id="overlay" class="erase">
+    <div id="white-space">
+      <img alt="" id='close' src='./images/icon-close-menu.svg'>
+      <div id="features-about-div">
+        <div id="features+">
+          <button id="features">Features <img alt="" id="arrD1"src='./images/icon-arrow-down.svg'><img alt="" id="arrU1" src='./images/icon-arrow-up.svg'class='hide'></button>
+          <div class="drop-down hide" id="dropdown-1" >
+            <ul>
+              <li> <img alt="" src='./images/icon-todo.svg'> Todo List</li>
+              <li> <img alt="" src='./images/icon-reminders.svg'> Calendar</li>
+              <li> <img alt="" src='./images/icon-calendar.svg'> Reminders</li>
+              <li> <img alt="" src='./images/icon-planning.svg'> Planning</li>
+            </ul>
+          </div>
+        </div>
+        <div id="company+">
+          <button id="company">Company<img alt="" id="arrD2"src='./images/icon-arrow-down.svg'><img alt="" id="arrU2" src='./images/icon-arrow-up.svg'class='hide'></button>
+          <div class="drop-down hide" id="dropdown-2" >
+            <ul>
+              <li>  History</li>
+              <li>  Our Team</li>
+              <li>  Blog</li>
+            </ul>
+          </div>
+        </div>
+        <button>Careers</button>
+        <button>About</button>
+      </div>
+      <div id="login-register-div">
+        <button>Login</button>
+        <button>Register</button>
+      </div> 
+
+    </div>
+  </div>
+
+ 
+  <picture id="hero-pic">
+    <source media="(max-width:799px)" srcset="./images/image-hero-mobile.png" >
+    <img alt="" src="./images/image-hero-desktop.png" alt="hero-image">
+  </picture>
+  <div id="main-visuals">
+    <div>
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar.</p>
+      <button>Learn more</button>
+    </div>
+    <div id="client-icon">
+      <img alt="" src='./images/client-databiz.svg'>
+      <img alt="" src='./images/client-audiophile.svg'>
+      <img alt="" src='./images/client-meet.svg'>
+      <img alt="" src='./images/client-maker.svg'>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"  rel="noopener noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/code-Allahtosin" target="_blank"  rel="noopener noreferrer">Muhammad A</a>.
+  </div>
+
+
+
+  <script src="index.js">  </script>
+</body>
+</html>
