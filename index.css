@@ -8,11 +8,11 @@
 
 @media only screen and (min-width: 800px) {
     body{
-    padding:40px;
+    padding:40px 40px 0px;
     font-family: 'Epilogue', sans-serif;
     font-weight: 500;
     display:grid;
-    grid-template-rows:40px minmax(auto,65vh)  40px;
+    grid-template-rows:40px minmax(580px,65vh)  20px;
     grid-template-columns: auto minmax(390px, 1fr) minmax(400px, 1fr) ;
     gap: 35px;
     color: hsl(0, 0%, 8%);
